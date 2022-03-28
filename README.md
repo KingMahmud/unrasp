@@ -16,7 +16,7 @@ This talk is the first from a new serie.
 
 ## Yara rules / RASP profiling
 
-Several rules are active on Koodous. They can be used to detect trojanized version of legitimate apps.
+Several rules are active on Koodous. They can be used to detect trojanized version of legitimate apps. Follow [Dexcalibur account](https://koodous.com/analysts/dexcalibur) to stay tunned.
 
 [Dexguard 9.x](https://koodous.com/rulesets/8158)
 
