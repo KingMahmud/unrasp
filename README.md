@@ -29,10 +29,20 @@ These scripts can be run within a specified range of address or over the entire 
 
 [[Inlined strings 1](https://github.com/FrenchYeti/unrasp/blob/main/Ghidra/inlined_string_1.py)]
 
-**Inlined_strings_1 : Not-NULL terminated inlined string with a flag holding the state**
-Output :
+**Inlined_strings_1 : A flag holds the state of the string (deciphered or not), Not-NULL terminated, while  or do-while-switch**
+Output example:
+```
+[Java_o_x_e] from 0x0010fabc . At 0x00128aaa (len:21) : /system/bin/nox-prop\x00
+[Java_o_x_e] from 0x0010fadb . At 0x00128bbb (len:16) : /system/bin/noxd
+[Java_o_x_e] from 0x0010faef . At 0x00128ccc (len:24) : /system/bin/nox-vbox-sf\x00
+[Java_o_x_e] from 0x0010fa12 . At 0x00128ddd (len:23) : /system/bin/noxspeedup\x00
+[Java_o_x_e] from 0x0010fa34 . At 0x00128eee (len:29) : /system/lib/libnoxspeedup.so\x00
+[Java_o_x_e] from 0x0010fb21 . At 0x00128fff (len:23) : /system/lib/libnoxd.so\x00
+Deciphering address --^^^              
+                 Data address ----^^^
+```
 
-This script works well with *while* loops and 
+This script works well with *while* loops and do-while with nested switch.
 
 
 ```
