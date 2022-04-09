@@ -14,11 +14,11 @@ This talk is the first from a new serie.
 
 ## Yara rules / RASP profiling
 
-Several rules are active on Koodous. They can be used to detect trojanized version of legitimate apps. Follow [Dexcalibur account](https://koodous.com/analysts/dexcalibur) to stay tunned.
+Several rules are active on Koodous. They can be used to detect trojanized version of legitimate apps. Follow [Dexcalibur account](https://koodous.com/profile/dexcalibur/followers) to stay tunned.
 
-[[Dexguard 9.x](https://koodous.com/rulesets/8158)]
- [[Verimatrix Pattern](https://koodous.com/rulesets/8164)]
- [[Verimatrix Barriers + Cache Control instructions](https://koodous.com/rulesets/8163)]
+[[Dexguard 9.x](https://koodous.com/rules/oKByDd2YmXOY8mnP/general)]
+ [[Verimatrix Pattern](https://koodous.com/rules/N7QqMdLzegGAm4eW/general)]
+ [[Verimatrix Barriers + Cache Control instructions](https://koodous.com/rules/8J2m7OlMr6dvRPao/general)]
  
 ## Ghidra scripts
  
