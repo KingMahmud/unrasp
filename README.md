@@ -1,5 +1,7 @@
 # unRASP
 
+**IMPORTANT Workshop NSEC2022 : Please clone this repository after 13 may 2022 or send me a mail**
+
 Ressources and papers related to my conferences and work on (un)RASPs.
 These work is in progress, please be patient :) Don't hesitate to contribute / contact me / do PR !
 
