@@ -5,6 +5,34 @@
 Ressources and papers related to my conferences and work on (un)RASPs.
 These work is in progress, please be patient :) Don't hesitate to contribute / contact me / do PR !
 
+## Workshops
+
+*NorthSec 2022*
+
+Choose one of way below :
+
+- Using Emulator (recommended)
+- Using Rooted device (recommended)
+- Using not rooted device by patching APK with frida gadget (not recommended, plz prepare it before)
+
+Requirements (Work in progress):
+
+1. If you expect to use emulator, install Android Studio and create new ARM64 + Android 10 virtual device
+2. If you expect to use physical device, it must be rooted (or APK must be pactched to embed frida-gadget)
+3. Ensure basic requirements are fulfilled :
+   1. nodejs
+   2. frida, frida tools (frida-ps, ...)
+   3. apktool
+   4. your favorite decompiler/smalifier : r2, baksmali, ghidra, jadx, jeb, ida, ...
+4. Clone this repository
+5. Move into *unrasp* folder
+6. Extract crackme - when it will be availabke - into `Workspace` folder using `apktool`
+7. Install the crackme on your test device/emulator
+8. Push `frida-server` and configure permissions (`setenforce 0`, ...)
+9. Try app, frida and Interruptor setup : 
+   1. `cd Workspace` 
+   2. `frida-compile test_interruptor.js -o test_.js && frida -U -l test_.js -f owasp.mstg.uncrackable2`
+
 ## Talks
 
 *Insomni'hack 2022 - Forging golden hammer against Android app protections*
