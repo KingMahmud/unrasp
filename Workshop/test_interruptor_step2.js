@@ -4,4 +4,9 @@ var KAPI = Interruptor.KAPI;
 
 Interruptor.newAgentTracer({
     followThread: false,
-}).startOnLoad(/\.so$/);
+    exclude: {
+        syscalls: [/mprotect/,/clock_/]
+    }
+}).startOnLoad(/a1b2\.so$/,{
+    threshold: 1
+});
