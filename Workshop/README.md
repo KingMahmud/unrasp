@@ -23,9 +23,14 @@ Purposes of each file :
 
 Choose one of way below :
 
-- Using Emulator (recommended)
-- Using Rooted device (recommended)
-- Using not rooted device by patching APK with frida gadget (not recommended, plz prepare it before)
+*recommended*:
+
+- Using Emulator and following config : Pixel 4XL, No Play Store, Android 9.0 Google APIs (API 28) 
+- Using Rooted device 
+
+*not recommended for the workshop*:
+
+- Using not rooted device by patching APK with frida gadget (please prepare it before)
 
 Requirements (Work in progress):
 
