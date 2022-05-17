@@ -328,7 +328,7 @@ Interruptor.newAgentTracer({
 
 
 
-        libdexg = Process.findModuleByName('libd31a.so');
+        libdexg = Process.findModuleByName('liba1b2.so');
         Interceptor.attach(libdexg.base.add(0x8b10), {
             onEnter: function(args){
                 //this.current_region = args[1];
@@ -341,7 +341,7 @@ Interruptor.newAgentTracer({
 
             },
             onLeave: function(ret){
-                console.log(`\x1b[92m [HOOK][LolGuard][libd31a] scan_bin_content FIX (): ${ret} \x1b[0m`);
+                console.log(`\x1b[92m [HOOK] scan_bin_content FIX (): ${ret} \x1b[0m`);
                 //this.current_region.add(40).writePointer(0); //.add(40).writeU32(0);
             }
         });
